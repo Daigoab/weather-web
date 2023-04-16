@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+    <title>My weather app</title>
+</head>
+<body>
+    <header>
+        <a href="index.html" class="header-brand">Autumn Weather Reader</a>
+        <nav>
+            <ul>
+                <li><a href="portfolio.html">Weather news</a></li>
+                <li><a href="disaster.html">Disaster alerts</a></li>
+                <li><a href="emergency.html">Emergency lines</a></li>
+                <li><a href="contact.html">Our contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="card">
+        <div class = "forecast"><img src="images/icons8-autumn-50.png" alt="" > </div>
+
+        <div class = "search">
+            <input type="text" placeholder="Enter a city name" spellcheck="false">
+            <button><img src="images/search.gif" alt=""></button>
+        </div>
+        
+        <div class="weather">
+            <img src="images/rain.png" class="weather-icon">
+            <h1 class="temp">30°C</h1>
+            <div class="city"><h2>Doha</h2></div>
+            <div class="details">
+                <div class="col">
+                    <img src="images/humidity.png" alt="">
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <img src="images/wind.png" alt="">
+                    <div>
+                        <p class="wind">50 km/h</p>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <footer>
+         <div class = "wrapper">
+            <footer>
+                <ul class="footer-main">
+                    <li>
+                        <h2>Find us at :</h2>
+                    </li>
+                    <li>Postal adress : PO BOX 225-01000 Nairobi
+                    <li>Phone number  : +254 678989 7868, +255 7458 78786
+                    <li>Email adress  : weatherforecast.gmail.com</li>
+                </ul>
+                <ul class="links-cases">
+                    <li><a href="">Our patners - Meteorological Dept</a></li>
+                    <li><a href="">Our sponsors </a></li>
+                    <li><a href="">References</a></li>
+                    <li><a href="">Careers</a></li>
+                </ul>
+             
+                <div class="footer-sm">
+                    <a href="">
+                        <img src="images/icons8-youtube-48.png" alt="YouTube icon">
+                    </a>
+                    <a href="">
+                        <img src="images/icons8-twitter-48.png" alt="Twitter icon">
+                    </a>
+                    <a href="">
+                        <img src="images/icons8-instagram-48.png" alt="Instagram icon">
+                    </a> 
+         </div>
+         <div class="winds">
+            <img src="images/icons8-humidity-64.png" alt="" > 
+            <div>
+    </footer>
+    <script src="weather.js"></script>
+</body>
+</html>
